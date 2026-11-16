@@ -1,0 +1,118 @@
+.user-register {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    box-sizing: border-box;
+}
+
+.register-card {
+    width: 100%;
+    max-width: 400px;
+    padding: 36px 32px;
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+
+.register-title {
+    margin: 0 0 6px;
+    text-align: center;
+    font-size: 26px;
+    color: #2d2d2d;
+}
+
+.register-subtitle {
+    margin: 0 0 28px;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #444;
+}
+
+.form-group input {
+    padding: 11px 14px;
+    font-size: 15px;
+    border: 1px solid #d4d4d4;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-group input:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
+}
+
+.form-message {
+    margin: 0 0 16px;
+    padding: 10px 12px;
+    font-size: 14px;
+    border-radius: 8px;
+}
+
+.form-message.error {
+    color: #b42318;
+    background: #fef3f2;
+    border: 1px solid #fecdca;
+}
+
+.form-message.success {
+    color: #067647;
+    background: #ecfdf3;
+    border: 1px solid #abefc6;
+}
+
+.register-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: opacity 0.2s, transform 0.1s;
+}
+
+.register-btn:hover {
+    opacity: 0.92;
+}
+
+.register-btn:active {
+    transform: scale(0.98);
+}
+
+.login-text {
+    margin: 20px 0 0;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+.login-text a {
+    color: #667eea;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.login-text a:hover {
+    text-decoration: underline;
+}
